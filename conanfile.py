@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostLogicConan(ConanFile):
     name = "boost_logic"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-logic"
+    url = "https://github.com/bincrafters/conan-boost_logic"
 
     lib_short_names = ["logic"]
     is_header_only = True
